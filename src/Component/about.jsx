@@ -53,7 +53,7 @@ const Section = () => {
     >
       <div className="absolute inset-0 bg-black/50" />
 
-      <div className="max-w-7xl mx-auto px-4 md:px-8 py-12 md:py-24 relative">
+      <div className="max-w-4xl mx-auto px-4 md:px-8 py-12 md:py-24 relative">
         {/* About Us Header */}
         <div className="text-yellow-500 text-base md:text-lg mb-8 md:mb-16">
           <span className="mr-2 font-normal">//</span>

@@ -29,37 +29,82 @@ const ContactAndFooter = () => {
           </div>
 
           {/* Contact Form */}
-          <div className="space-y-6">
-            <div>
-              <label className="text-gray-400 block mb-2">Name</label>
-              <input
-                type="text"
-                className="w-full bg-transparent border border-yellow-600 rounded-full px-6 py-3 text-white focus:outline-none focus:border-yellow-400"
-                placeholder="Your Name"
-              />
-            </div>
-            <div>
-              <label className="text-gray-400 block mb-2">Contact back</label>
-              <input
-                type="email"
-                className="w-full bg-transparent border border-yellow-600 rounded-full px-6 py-3 text-white focus:outline-none focus:border-yellow-400"
-                placeholder="Your e-mail"
-              />
-            </div>
-            <div>
-              <label className="text-gray-400 block mb-2">Message</label>
-              <input
-                type="text"
-                className="w-full bg-transparent border border-yellow-600 rounded-full px-6 py-3 text-white focus:outline-none focus:border-yellow-400"
-                placeholder="Message"
-              />
-            </div>
-            <div className="flex justify-end">
-              <button className="bg-black border border-yellow-600 text-white rounded-full px-8 py-3 hover:bg-yellow-600 transition-colors duration-300">
-                SEND
-              </button>
-            </div>
-          </div>
+{/* Contact Form */}
+<div className="space-y-6 max-w-2xl">
+  <div className="relative">
+    
+    
+  </div>
+
+  
+
+ {/* Contact Form */}
+<div className="max-w-4xl mx-auto p-6">
+  {/* Labels Row */}
+  <div className="grid grid-cols-2 gap-8 mb-2">
+    <label className="text-white text-sm">Name</label>
+    <label className="text-white text-sm">Contact back</label>
+  </div>
+  
+  {/* Input Fields Row */}
+  <div className="grid grid-cols-2 gap-8 mb-6">
+    <div className="relative">
+      <span className="absolute left-4 top-1/2 -translate-y-1/2">
+        <svg className="w-5 h-5 text-yellow-600" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+        </svg>
+      </span>
+      <input
+        type="text"
+        className="w-full bg-transparent border border-yellow-600 rounded-full pl-12 pr-6 py-3 text-gray-400 focus:outline-none"
+        placeholder="Your Name"
+      />
+    </div>
+    
+    <div className="relative">
+      <span className="absolute left-4 top-1/2 -translate-y-1/2">
+        <svg className="w-5 h-5 text-yellow-600" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+        </svg>
+      </span>
+      <input
+        type="email"
+        className="w-full bg-transparent border border-yellow-600 rounded-full pl-12 pr-6 py-3 text-gray-400 focus:outline-none"
+        placeholder="Your e-mail"
+      />
+    </div>
+  </div>
+
+  {/* Message Label */}
+  <label className="text-white text-sm block mb-2">Message</label>
+  
+  {/* Message Input */}
+  <div className="relative mb-6">
+    <span className="absolute left-4 top-1/2 -translate-y-1/2">
+      <svg className="w-5 h-5 text-yellow-600" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-4l-4 4z" />
+      </svg>
+    </span>
+    <input
+      type="text"
+      className="w-full bg-transparent border border-yellow-600 rounded-full pl-12 pr-6 py-3 text-gray-400 focus:outline-none"
+      placeholder="Message"
+    />
+  </div>
+
+  {/* Send Button */}
+  <div className="flex justify-end">
+    <button className="relative w-32 h-32 rounded-full bg-black border border-yellow-600 group overflow-hidden">
+      <span className="text-white text-lg relative z-10">SEND</span>
+      <div className="absolute inset-0 bg-yellow-600/20 blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+      <div className="absolute inset-0 bg-black/90"></div>
+      <div className="absolute inset-0 border-4 border-yellow-600/30 rounded-full blur-md"></div>
+    </button>
+  </div>
+</div>
+
+ 
+</div>
         </div>
       </div>
 

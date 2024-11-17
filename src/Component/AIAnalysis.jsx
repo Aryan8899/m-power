@@ -25,7 +25,7 @@ const AIAnalysis = () => {
   return (
     <div className="min-h-screen bg-black relative">
       {/* Background image section */}
-      <div className="w-full h-[30vh] relative overflow-hidden">
+      <div className="w-full h-full relative overflow-hidden">
         <img 
           src={image} 
           alt="space" 

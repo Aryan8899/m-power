@@ -85,12 +85,12 @@ const RoadmapSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="relative">
           {/* Timeline Card */}
-          <div className="relative overflow-hidden rounded-lg">
+          <div className="relative overflow-hidden">
             {/* Background Image Container */}
             <div className="absolute inset-0">
               <img 
                 src={walpaper}
-                alt="Abstract background" 
+                
                 className="w-full h-full object-cover opacity-50"
               />
               <div className="absolute inset-0 bg-black bg-opacity-70" />
@@ -125,9 +125,7 @@ const RoadmapSection = () => {
                 </div>
                 
                 {/* Right Content - Visual Element */}
-                <div className="relative hidden md:block">
-                  <div className="absolute inset-0 bg-gradient-to-br from-neutral-800/30 to-transparent rounded-lg" />
-                </div>
+
               </div>
             </div>
           </div>
